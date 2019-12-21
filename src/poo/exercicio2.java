@@ -34,7 +34,7 @@ public class exercicio2 {
          double soma;    
        for (int i=0; i<notasAlunos.length; i++){
           
-          for (int j=0; j<notasAlunos[i].length; j++){
+          for (int j=0; j<notasAlunos[j].length; j++){
               soma += notasAlunos[i][j];
               
               System.out.println("media do aluno" + i + " e = "+ (soma/4));
