@@ -1,10 +1,11 @@
 package poo;
+import java.util.Scanner
 
 /**
  *
  * @author Hassan
  */
-public class exercicio3 {
+public class MatrizIRREGULAR {
     
     public static void main(String[] args) {
 Scanner scan = new Scanner(System.in);
@@ -30,8 +31,9 @@ nomesFilhos[i] = new String[qtdFilhos];
              
          }
 for (int i=0; i<nomesFilhos.length; i++){
+System.out.println("pessoa" + i + " +tem "+ nomesFilhos[i].length " Filhos");
 for (int j=0; j<nomesFilhos[i][j].length(); j++){
-    System.out.println("pessoa" + i + " +tem "+ nomesFilhos[i].length " Filhos");
+    System.out.println(nomesFilhos[i][j]);    
 }
 }
     }
