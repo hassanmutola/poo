@@ -41,3 +41,6 @@ public class exercicio2 {
        }
     }
 }
+
+    public exercicio2() {
+    }
