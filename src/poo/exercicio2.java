@@ -1,8 +1,6 @@
 
 package poo;
 
-import java.util.logging.Logger;
-
 /**
  *
  * @author Hassan
@@ -43,6 +41,30 @@ public class exercicio2 {
        }
     }
 }
-    private static final Logger LOG = Logger.getLogger(exercicio2.class.getName());
+
+    @Override
+    protected void finalize() throws Throwable {
+        super.finalize(); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public String toString() {
+        return super.toString(); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone(); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        return super.equals(o); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode(); //To change body of generated methods, choose Tools | Templates.
+    }
 
    
