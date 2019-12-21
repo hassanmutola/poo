@@ -64,7 +64,7 @@ public class exercicio2 {
 
     @Override
     public int hashCode() {
-        return super.hashCode(); //To change body of generated methods, choose Tools | Tes.
+        return super.hashCode(); //To change body of generated methods, choose Tools | Ts.
     }
 
    
