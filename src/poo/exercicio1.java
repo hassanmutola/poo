@@ -20,14 +20,14 @@ public class exercicio1 {
         temperaturas[3] = 34;
         temperaturas[4] = 33.1;
         
-        System.out.println("o valor da temperatura do dia 1 e:" +temperaturas[2]);
+        System.out.println("o valor da temperatura do dia 3 e:" +temperaturas[2]);
         
         System.out.println("o tamanho do array: " + temperaturas.length);
         
         System.out.println("valores do array: ");
         
         for (int i=0; i<temperaturas.length; i++){
-            
+        System.out.println("o valor da temperatura do dia"+(i+1) + " e:" +temperaturas[i]);
         }
     }
     
