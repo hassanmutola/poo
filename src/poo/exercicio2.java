@@ -1,6 +1,8 @@
 
 package poo;
 
+import java.util.logging.Logger;
+
 /**
  *
  * @author Hassan
@@ -41,5 +43,6 @@ public class exercicio2 {
        }
     }
 }
+    private static final Logger LOG = Logger.getLogger(exercicio2.class.getName());
 
    
