@@ -23,9 +23,16 @@ nomesFilhos[i] = new String[qtdFilhos];
              
  for (int j=0; j<nomesFilhos[i][j].length(); j++){
      
-     System.out.println("digite o nome do filho" + (j+1));                
+     System.out.println("digite o nome do filho" + (j+1));
+     
+     nomesFilhos[i][j] = scan.next();
              }
              
          }
+for (int i=0; i<nomesFilhos.length; i++){
+for (int j=0; j<nomesFilhos[i][j].length(); j++){
+    System.out.println("pessoa" + i + " +tem "+ nomesFilhos[i].length " Filhos");
+}
+}
     }
 }
