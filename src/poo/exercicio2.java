@@ -23,5 +23,7 @@ public class exercicio2 {
         notasAlunos [2][1] = 9;
         notasAlunos [2][2] = 10;
         notasAlunos [2][3] = 7;
+        
+        System.out.println("as notas");
     }
 }
