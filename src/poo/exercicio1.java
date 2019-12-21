@@ -25,6 +25,10 @@ public class exercicio1 {
         System.out.println("o tamanho do array: " + temperaturas.length);
         
         System.out.println("valores do array: ");
+        
+        for (int i=0; i<temperaturas.length; i++){
+            
+        }
     }
     
 }
