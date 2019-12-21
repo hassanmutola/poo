@@ -1,11 +1,12 @@
 package poo;
+
 import java.util.Scanner
 
 /**
  *
  * @author Hassan
  */
-public class MatrizIRREGULAR {
+public class MatrizIrregular {
     
     public static void main(String[] args) {
 Scanner scan = new Scanner(System.in);
