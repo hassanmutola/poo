@@ -1,6 +1,6 @@
 package poo;
 
-import java.util.Scanner
+import java.util.Scanner;
 
 /**
  *
@@ -12,14 +12,14 @@ public class MatrizIrregular {
 Scanner scan = new Scanner(System.in);
          
 System.out.println("entre com o numero de pessoas que serao entrevistadas");
-int numEntrevistados = scan.nextint();
+int numEntrevistados = scan.nextInt();
          
 String[][] nomesFilhos = new String[numEntrevistados][];
          
 for (int i=0; i<nomesFilhos.length; i++){
          
 System.out.println("entre com a quantidade de filhos");
-int qtdFilhos = scan.nextint();
+int qtdFilhos = scan.nextInt();
              
 nomesFilhos[i] = new String[qtdFilhos];
              
@@ -32,7 +32,7 @@ nomesFilhos[i] = new String[qtdFilhos];
              
          }
 for (int i=0; i<nomesFilhos.length; i++){
-System.out.println("pessoa" + i + " +tem "+ nomesFilhos[i].length " Filhos");
+System.out.println("pessoa" + i + "tem " + nomesFilhos[i].length "Filhos");
 for (int j=0; j<nomesFilhos[i][j].length(); j++){
     System.out.println(nomesFilhos[i][j]);    
 }
