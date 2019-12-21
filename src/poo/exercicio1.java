@@ -29,6 +29,10 @@ public class exercicio1 {
         for (int i=0; i<temperaturas.length; i++){
         System.out.println("o valor da temperatura do dia"+(i+1) + " e:" +temperaturas[i]);
         }
+        
+        for (double temp : temperaturas){
+            System.out.println("temp");
+        }
     }
     
 }
