@@ -32,7 +32,7 @@ nomesFilhos[i] = new String[qtdFilhos];
              
          }
 for (int i=0; i<nomesFilhos.length; i++){
-System.out.println("pessoa" + i + "tem " + nomesFilhos[i].length "Filhos");
+System.out.println("pessoa " + i + "tem " + nomesFilhos[i].length+ "Filhos");
 for (int j=0; j<nomesFilhos[i][j].length(); j++){
     System.out.println(nomesFilhos[i][j]);    
 }
