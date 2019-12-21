@@ -24,7 +24,7 @@ public class exercicio1 {
         
         System.out.println("o tamanho do array: " + temperaturas.length);
         
-        System.out.println("valores");
+        System.out.println("valores do");
     }
     
 }
