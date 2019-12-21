@@ -42,9 +42,6 @@ public class exercicio2 {
     }
 }
 
-    @Override
-    protected void finalize() throws Throwable {
-        super.finalize(); //To change body of generated methods, choose Tools | Templates.
     }
 
    
