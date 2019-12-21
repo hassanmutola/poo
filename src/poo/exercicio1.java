@@ -31,7 +31,7 @@ public class exercicio1 {
         }
         
         for (double temp : temperaturas){
-            System.out.println("temp");
+            System.out.println("hora");
         }
     }
     
